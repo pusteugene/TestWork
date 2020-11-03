@@ -11,6 +11,11 @@ namespace TestWork
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Operation operation = new Operation();
+            Console.WriteLine(operation.Addition());
+            Console.WriteLine(operation.Divide());
+            Console.WriteLine(operation.Multiplication());
+            Console.WriteLine(operation.Subtraction());
         }
     }
 }
